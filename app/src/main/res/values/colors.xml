@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#607D8B</color>
+
+    <color name="colorPrimaryDark">#FF9800</color>
+
+    <color name="colorAccent">#EF6C00</color>
+
+    <color name="blue_light">#7a92dd</color>
+
+    <color name="viewBg">#f2f4f4</color>
+
+    <color name="album_title">#4c4c4c</color>
+
+    <color name="white_transparent">#cccccc</color>
+
+    <color name="transparent">#00F0F8FF</color>
+
+    <color name="main_background_color">#efefef</color>
+
+    <color name="main_card_color">#fafafa</color>
+
+    <color name="main_welcome_color">#4D000000</color>
+
+    <color name="hint_text_color">#9c9c9c</color>
+
+    <color name="drawer_background_color">#ffffff</color>
+
+    <color name="drawer_menu_unselected_color">#bfbfbf</color>
+
+    <color name="drawer_menu_text_color">#212121</color>
+
+    <color name="property_item_hint_color">#737373</color>
+
+    <color name="property_item_text_color">#4b4b4b</color>
+
+    <color name="property_item_line_color">#e0e0e0</color>
+
+    <color name="text_color">#949494</color>
+
+    <color name="transparent_grey">#33000000</color>
+
+    <color name="transparent_light_red">#77EA4000</color>
+    <color name="transparent_aliceBlue">#55C0E0E0</color>
+    <color name="fab_color">#bdc3c7</color>
+    <color name="transparent_black">#D9000000</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+
+    <color name="blue_green">#607D8B</color>
+    <color name="dark_teal">#004D40</color>
+    <color name="dark_grey">#424242</color>
+    <color name="bg_view_sms">#ffd423</color>
+    <color name="bg_view_otp">#fc6d38</color>
+    <color name="dark_orange">#EF6C00</color>
+    <color name="dark_brown">#3E2723</color>
+    <color name="error">#ea3732</color>
+
+</resources>

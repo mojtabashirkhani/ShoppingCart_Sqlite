@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Nikan</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <string name="nikan">www.nikan.ir</string>
+    <string name="nikan_engineering_department">Nikan Engineering Department</string>
+    <string name="try_again">Try again</string>
+    <string name="field">Web design , SEO, Application</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+    <string name="action_logout">Logout</string>
+    <string name="msg_enter_mobile">Enter your mobile number to get started!</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_mobile">Mobile</string>
+    <string name="lbl_next">NEXT</string>
+    <string name="msg_sit_back">Sit back &amp; Relax! while we verify your mobile number</string>
+    <string name="msg_manual_otp">(Enter the OTP below in case if we fail to detect the SMS automatically)</string>
+    <string name="lbl_enter_otp">Enter OTP</string>
+    <string name="lbl_submit">SUBMIT</string>
+    <string name="title_activity_show_register">ShowRegister</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="sweets">Sweets</string>
+    <string name="baget">Baguette</string>
+    <string name="bread">Bread</string>
+    <string name="title_activity_buy_sth">BuySthActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cost">Cost</string>
+    <string name="title_activity_take_order">TakeOrder</string>
+    <string name="title_activity_complete">CompleteActivity</string>
+    <string name="title_activity_factor">FactorActivity</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

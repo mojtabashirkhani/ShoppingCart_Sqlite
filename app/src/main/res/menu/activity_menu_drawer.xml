@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pocket"
+            android:icon="@mipmap/ic_pocket"
+            android:title="Pocket" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@mipmap/ic_account"
+            android:title="Account" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@mipmap/ic_orders"
+            android:title="Orders" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@mipmap/ic_support"
+            android:title="Support" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@mipmap/ic_share"
+            android:title="Share"/>
+
+        <item
+            android:title="Help"
+            android:id="@+id/nav_help"
+            android:icon="@mipmap/ic_help"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/ic_share"
+            android:title="About us"/>
+
+
+        <item
+            android:id="@+id/nav_free"
+            android:icon="@mipmap/ic_money"
+            android:title="Free credit"
+            />
+
+    </group>
+
+
+
+</menu>
