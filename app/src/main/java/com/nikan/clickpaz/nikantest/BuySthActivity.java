@@ -29,6 +29,8 @@ import java.util.ArrayList;
 public class BuySthActivity extends AppCompatActivity  {
 
     private static final String TAG = "BuySthActivity";
+    //public static Bus bus;
+
 
     private ArrayList<ShopModel> shopModelArray=new ArrayList<>();
     private CardView order;
@@ -108,6 +110,9 @@ public class BuySthActivity extends AppCompatActivity  {
 
        /* DatabaseHelper databaseHelper=new DatabaseHelper(this);
         databaseHelper.deleteAllShop();*/
+
+        /*bus = new Bus(ThreadEnforcer.MAIN);
+        bus.register(this);*/
 
         LocalBroadcastManager.getInstance(this).registerReceiver(mMessageReceiver,
                 new IntentFilter("custom-message"));
@@ -246,6 +251,10 @@ public class BuySthActivity extends AppCompatActivity  {
 
     }
 
+  /*  @Subscribe
+    public void getMessage(String s) {
+        Toast.makeText(this, s, Toast.LENGTH_SHORT).show();
+    }*/
 
 
     private void initRecyclerView() {

@@ -39,6 +39,8 @@ public class CartListAdapter extends RecyclerView.Adapter<CartListAdapter.MyView
     private ShopModel shopModel;
     private DatabaseHelper databaseHelper;
     private int UUID;
+   // private static Bus bus;
+
 
 
     //private ItemClickListener mCallback;
@@ -153,7 +155,13 @@ public class CartListAdapter extends RecyclerView.Adapter<CartListAdapter.MyView
                             });
 
 
-                Intent intent = new Intent("custom-message");
+
+                        /*bus.post(number);
+                        bus.post(String.valueOf(calculate));*/
+
+
+
+                        Intent intent = new Intent("custom-message");
 
                 /*title+=item.getTitle()+",";
                 intent.putExtra("title",title);*/
@@ -234,6 +242,7 @@ public class CartListAdapter extends RecyclerView.Adapter<CartListAdapter.MyView
             Log.d(TAG,"4 test");
         }*/
 
+
       // databaseHelper.close();
 
         Glide.with(context)
@@ -262,6 +271,9 @@ public class CartListAdapter extends RecyclerView.Adapter<CartListAdapter.MyView
         notifyItemInserted(position);
     }
 
-
+   /* @Produce
+    public String produceEvent() {
+        return "Starting up";
+    }*/
 
 }
